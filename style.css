@@ -31,10 +31,28 @@ body{
    padding: 0 20px;
 }
 
+.header nav ul a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.header nav ul a:hover li{
+    color: #01D5A2;
+    
+}
+
 .header .icon{
     display: inline;
     margin-left: 59%;
     justify-content: flex-end;
+}
+
+.header .icon a{
+    text-decoration: none;
+}
+
+.header .icon a:hover i{
+    transform: scale(2);
 }
 
 .header .icon i{
@@ -120,9 +138,26 @@ hr{
     display: block;
     width: 250px;
     height: 40px;
-    margin: 10px auto;
-    background-color: #01D5A2F;
+    margin: 60px auto;
+    background-color: #01D5A2;
     border: none;
+    border-radius: 2rem;
+}
+
+.main button a{
+    text-decoration: none;
+    color: #020307;
+    font-size: 20px;
+}
+
+.main button:hover{
+    background-color: #ffff;
+    font-weight: 400;
+    transform: scale(1.5);
+}
+
+.main button a:hover{
+    color: #01D5A2;
 }
 
 /* FOOTER */
