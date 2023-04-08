@@ -116,6 +116,15 @@ hr{
     padding: 20px;
 }
 
+.main button{
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: #01D5A2F;
+    border: none;
+}
+
 /* FOOTER */
 
 .footer{
